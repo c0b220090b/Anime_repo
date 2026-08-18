@@ -1,3 +1,6 @@
+### repoクローン方法
+git clone --recurse-submodules git@github.com:c0b220090b/anime_repo.git
+
 ### repo関係
 repo/                  ← 新しく.gitを作る（Dockerfileなどを管理）
 ├── .git
