@@ -1,0 +1,3 @@
+[submodule "comfyui"]
+	path = comfyui
+	url = git@github.com:c0b220090b/ComfyUI_repo.git

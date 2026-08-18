@@ -1,0 +1,17 @@
+services:
+  ComfyUI-service:
+    image: comfyui-custom:latest
+    container_name: Comfy_UI
+    tty: true
+    stdin_open: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    ports:
+      - "18005:8888"
+    volumes:
+      - /home/isak/ComfyUI_myrepo/comfyui:/comfyui
