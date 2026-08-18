@@ -14,4 +14,4 @@ services:
     ports:
       - "18005:8888"
     volumes:
-      - /home/isak/ComfyUI_myrepo/comfyui:/comfyui
+      - ./comfyui:/comfyui
