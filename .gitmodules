@@ -1,3 +1,6 @@
 [submodule "comfyui"]
 	path = comfyui
 	url = git@github.com:c0b220090b/ComfyUI_repo.git
+[submodule "ai-toolkit"]
+	path = ai-toolkit
+	url = git@github.com:c0b220090b/ai-toolkit.git
